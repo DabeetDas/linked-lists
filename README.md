@@ -1,2 +1,21 @@
-# linked-lists
-This repository contains a clean, modular, and easy-to-use implementation of a singly linked list in the C programming language. It provides all basic operations such as insertion (at beginning, end, or any position), deletion, reversing the list, printing the list, and clearing (deleting) the entire list.
+# Singly Linked List Library in C
+
+This is a simple singly linked list implementation in C.
+
+## Features:
+- Insert at start, end, or at a given position
+- Delete at start, end, or at a given position
+- Print the list
+- Reverse the list
+- Delete the entire list
+
+## Files:
+- `linkedlist.h` — header file (struct + function prototypes)
+- `linkedlist.c` — function definitions
+- `main.c` — example usage
+
+## How to compile:
+
+```bash
+gcc main.c linkedlist.c -o linkedlist
+./linkedlist
